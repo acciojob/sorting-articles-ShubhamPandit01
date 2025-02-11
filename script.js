@@ -29,7 +29,7 @@ const sortedBands = bands.sort((a, b) => {
 
 // Function to display the sorted bands in the <ul> with id 'band'
 function displaySortedBands() {
-    const bandList = document.getElementById('band');
+    const bandList = document.getElementById('bands');
     
     // Clear any existing content in the list
     bandList.innerHTML = '';
